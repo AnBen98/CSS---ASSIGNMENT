@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+}
+
+.header {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 7vw;
+  background-color: #1f2937;
+}
+
+.header .logo {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.5em;
+}
+
+.header .logo .a {
+  text-decoration: none;
+}
+
+.logo-img {
+  max-height: 6vh;
+  border-radius: 50%;
+}
+
+span.text-logo {
+  margin-left: 5px;
+  color: #f9faf8;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.main-ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.main-li {
+  font-size: 1em;
+  letter-spacing: 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5em;
+  color: #e5e7eb;
+}
+
+#hero {
+  width: 100%;
+  background-color: #1f2937;
+  display: flex;
+  padding: 4em 0;
+}
+
+.hero-container {
+  padding: 50px 0;
+  height: 50%;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: right;
+}
+
+.hero-img img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.hero-container p {
+  color: #f9faf8;
+  font-size: 2em;
+  padding-left: 2em;
+}
+
+.sub-text {
+  color: #1f2937;
+  font-size: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+#information {
+  margin: 0;
+  padding: 0;
+}
+
+.information-heading {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.cards-and-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+  margin-inline: auto;
+  margin-top: 3rem;
+}
+
+.card {
+  width: 100%;
+  min-width: 3em;
+  padding: 0;
+}
+
+.card-img {
+  border-radius: 30%;
+  height: 10%;
+  border: #1f2937 solid 1px;
+}
+
+.card-title {
+  margin: 0;
+  padding: 1rem;
+}
+
+.card-desc {
+  margin-top: 0.25rem;
+}
+
+.explore-more {
+  background-color: #3882f6;
+  margin: 50px 200px;
+  padding: 30px;
+  color: #e5e7eb;
+  border-radius: 10px;
+}
+
+.quote-section {
+  background: #e5e7eb;
+  color: #1f2937;
+  font-size: 3em;
+  padding: 60px;
+}
+
+#author {
+  float: right;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 1%;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  margin: 0;
+}
